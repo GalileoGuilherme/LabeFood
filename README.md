@@ -1,14 +1,14 @@
 # LABE EATS
 
-Esse projeto tinha como objetivo simular um aplicativo de delivery como os que existem atualmente, tais como Ifood, Uber Eats e Rappi.
+Esse projeto tinha como objetivo simular um aplicativo de delivery.
 
 Projeto desenvolvido em equipe, com os colegas: 
-- Carolaine Viana
-- Erick Charles Neves
-- José Modolo Neto
-- Yuri Pinheiro
+- Galileo Guilherme
+- 
+- 
+- 
 
-Link do Surge: labefood3.surge.sh
+Link do Surge: 
 
 ### obs: Para testar o projeto utilize o Devtools do seu navegador para simular a tela de um smartphone
 
