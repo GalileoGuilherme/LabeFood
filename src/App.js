@@ -1,19 +1,25 @@
-import "./App.css";
-import RestaurantsProvider from "./Contexts/RestaurantsCtx";
-import CartProvider from "./Contexts/CartCtx";
 import React from "react";
-import Router from "./Routes/Router";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import InitialPage from "./pages/Initial/InitialPage";
+import Router from "./routes/Router";
+import GlobalStyled from "./GlobalStyled";
+import { GlobalContext } from "./global/GlobalContext";
+import { GlobalState } from "./global/GlobalState";
+import styled from "styled-components";
 
-function App() {
+const Main = styled.div`
+font-family: 'Roboto', sans-serif;
+` 
+
+export default function App() {
   return (
-    <div>
-      <CartProvider>
-        <RestaurantsProvider>
-          <Router />
-        </RestaurantsProvider>
-      </CartProvider>
-    </div>
+    <Main>
+      <GlobalStyled />
+      <GlobalState>
+        <Router />
+      </GlobalState>
+        <ToastContainer />
+    </Main>
   );
 }
-
-export default App;
