@@ -4,7 +4,7 @@
 - **Dickson**  - Em alta: Requisições em API e lógica
 - **Mizael** - Em alta: Apoio
 - **Jonas** - Em alta: Renderização e lógica
-- **Galileo** - Em alta: 
+- **Galileo** - Em alta: Renderização e lógica 
 - **Wictor** - Em alta: Estilização
 
 
